@@ -1,9 +1,12 @@
 import psycopg2
+import os
 
 def get_connection():
     return psycopg2.connect(
-        host="localhost",
-        database="postgis_35_sample",
-        user="aron",
-        password="password"
+        host=os.getenv("HOST"),
+        database=os.getenv("DB"),
+        user=os.getenv("USER"),
+        password=os.getenv("PASSWORD"),
+        port=os.getenv("PORT"),
+        sslmode="require"
     )
