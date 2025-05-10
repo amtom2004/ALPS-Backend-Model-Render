@@ -7,6 +7,6 @@ def get_connection():
         database=os.getenv("DB"),
         user=os.getenv("USER"),
         password=os.getenv("PASSWORD"),
-        port=os.getenv("PORT"),
+        port=5432,
         sslmode="require"
     )
