@@ -6,4 +6,4 @@ joblib
 pydantic
 pandas
 psycopg2
-https
+httpx
