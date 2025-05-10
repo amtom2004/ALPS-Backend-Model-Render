@@ -1,7 +1,7 @@
 import httpx
 
 # Directly setting your API key here (not via environment variable)
-OPENWEATHER_API_KEY = "2b386c3477ab1ec31e089daf91d066a3"
+OPENWEATHER_API_KEY
 
 async def fetch_rainfall(lat: float, lon: float) -> float:
     if not OPENWEATHER_API_KEY:
