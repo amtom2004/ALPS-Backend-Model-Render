@@ -7,3 +7,4 @@ pydantic
 pandas
 psycopg2
 httpx
+os
