@@ -5,3 +5,5 @@ uvicorn
 joblib
 pydantic
 pandas
+psycopg2
+https
